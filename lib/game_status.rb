@@ -27,5 +27,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? {|char| char=!"X" || char!="O"}
+  board.all? {|char| char=="X" || char=="O"}
 end
