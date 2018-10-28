@@ -22,5 +22,6 @@ def won?(board)
     if (board[combination[0]] == "X" || board[combination[0]] == "O") && board[combination[0]] == board[combination[1]] == board[combination[2]]
       win_combination = combination
   end
+end
   return win_combination
 end
