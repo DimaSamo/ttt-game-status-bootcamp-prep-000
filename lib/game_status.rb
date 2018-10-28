@@ -25,3 +25,7 @@ def won?(board)
   end
   return win_combination
 end
+
+def full?(board)
+  board.any? {|char| char!="X" || char!="O"}
+end
